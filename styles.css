@@ -1,0 +1,152 @@
+
+/* color pallette
+dff0ea
+95adbe
+574f7d
+4f3a65 */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.heading {
+  font-family: 'Great Vibes', cursive;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #60204b;
+  border-bottom: 0.5rem solid #63aabc;
+}
+
+.logo {
+  float: left;
+  height: 6rem;
+  padding: 1rem 0.1rem 1rem 1rem;
+}
+
+.nav-link {
+  color: white;
+  display: block;
+  float: right;
+  text-align: center;
+  font-size: 1rem;
+  padding: 2.25rem 2rem 2.25rem 0;
+}
+
+.sign-up {
+  background-color: #f9f3ec;
+  padding-top: 20%;
+  text-align: center;
+  border-top: 0.5rem solid #4f3a65;
+}
+
+.claims-div {
+  padding: 10% 20% 5% 20%;
+}
+
+.claims {
+  text-align: left;
+  padding-bottom: 2rem;
+}
+
+.form {
+  padding-bottom: 4rem;
+}
+
+.video-div {
+  text-align: center;
+  padding-top: 7%;
+  padding-bottom: 6%;
+  border-top: 0.5rem solid #4f3a65;
+}
+
+.video-heading {
+  font-family: 'Great Vibes', cursive;
+  padding-bottom: 2rem;
+}
+
+
+/* #more-doors contains flex-box cards */
+.more-doors {
+  border-top: 0.5rem solid #4f3a65;
+  background-color: #63aabc;
+  padding: 3% 5%;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-column {
+  background-color: #f9f3ec;
+  border: 1px solid #4f3a65;
+  border-radius: 0.3rem;
+  width: 80%;
+  padding: 1% 1%;
+  margin: 2rem 0.5rem 1.5rem 0.5rem;
+  box-shadow: 5px 5px 4px 1px #4a808d;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+
+}
+
+.card-text {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: justify;
+}
+
+/*footer styles*/
+
+.footer {
+  text-align: center;
+  border-top: 0.5rem solid #f9f3ec;
+}
+
+.end-msg {
+  color: #f9f3ec;
+  background-color: #4f3a65;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+span {
+  text-decoration: underline;
+}
+
+
+/*Media breaks*/
+
+@media only screen and (min-width: 800px) {
+  .card-column {
+    width: 45%;
+  }
+
+  .sign-up {
+    padding-top: 15%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .claims {
+    text-align: center;
+  }
+
+  .sign-up {
+    padding-top: 10%;
+  }
+
+  .card-column {
+    width: 30%;
+  }
+}
